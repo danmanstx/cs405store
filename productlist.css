@@ -1,0 +1,63 @@
+body {
+	background-color: white;
+	
+	color: #005DAA;
+	
+}
+ul.games{	
+	text-align: left;
+	margin: 0px;
+	list-style: none;
+}
+ul.books{	
+	text-align: left;
+	margin: 0px;
+	list-style: none;
+}
+li.navlist{
+	display: inline;
+	text-align: left;
+	list-style: none;
+	padding: 20px;
+}
+#topnav{
+    text-align: left;
+    font-size: small;
+    position: absolute;
+    top: 0px;
+    right: 20%;
+    color: silver;
+    border-bottom: 1px solid #333;
+    font-variant: small-caps;
+}
+#heading{
+	position: absolute;
+	top: 20px;
+	text-shadow: 0 1px 0 #fff, 0 -1px 0 #000;
+
+}
+#pageContent{
+	position: absolute;
+	top: 60px;
+	left: 30px;
+}
+#books{
+	position: absolute;
+	top: 120px;
+	left: 50px;	
+}
+#games{
+	position: absolute;
+	top: 120px;
+	left: 400px;
+}
+a:visited{
+    color: #004bfa;
+}
+a:hover{
+    color: silver;
+    text-decoration: underline;
+}
+a:link{
+    text-decoration: none;
+}
